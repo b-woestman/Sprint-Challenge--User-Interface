@@ -69,7 +69,7 @@ p {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 801px;
     margin: 0 auto;
 }
 header{
@@ -288,8 +288,12 @@ footer{
     .top-content .text-container {
         width: 100%;
     }
+    p{
+        font-size: 1.8rem;
+    }
     h2{
         margin-bottom: 0.5rem;
+        font-size: 2.4rem;
     }
     .box{
         width: 30%;
@@ -323,4 +327,4 @@ footer{
     footer{
         padding: 5% 0;
     }
-    } */
+    }
