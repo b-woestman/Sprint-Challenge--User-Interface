@@ -52,7 +52,7 @@ table {
 }
 
 html, body {
-    /* height: 100%; */
+    height: 100%;
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
 }
@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 1.4rem;
 }
 
 .container {
@@ -75,8 +76,34 @@ header{
     display: flex;
     width: 100%; 
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: flex-start;
+    margin: 2% 1%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 3% 0%;
+}
+#lambda-image{
+    width: 25%;
+    height: auto;
+    margin-left: 0;
+}
+a {
+    display: flex;
+    width: 75%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+}
+#highway-image{
+    width: 100%;
+    height: auto;
 }
 .top-content {
     display: flex;
@@ -107,18 +134,46 @@ header{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.2rem;
 }
-
+#box1{
+    background-color: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background:coral;
+}
+#box5 {
+    background:crimson;
+}
+#box6 {
+    background:forestgreen;
+}
+#box7 {
+    background:darkorchid;
+}
+#box8 {
+    background:hotpink;
+}
+#box9 {
+    background:indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
